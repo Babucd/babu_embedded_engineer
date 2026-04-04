@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Babu Natarajan",
+    fullName: "Babu Natarajan",
+    email: "babunatarajan43@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Babu Natarajan",
+    p: ["— an Embedded Systems & IoT Engineer focused on building", "reliable, real-time systems that work beyond controlled environments."],
   },
   contact: {
     p: "Get in touch",
@@ -74,8 +74,9 @@ export const config: TConfig = {
       real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "What I have built so far",
+      h2: "Me & Hardware.",
+      content: "A lifelong story.",
     },
     feedbacks: {
       p: "What others say",

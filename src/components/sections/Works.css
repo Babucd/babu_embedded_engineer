@@ -1,6 +1,6 @@
 .works-container {
-  /* Set a large height to enable scrolling for sticky layout */
-  height: 200vh;
+  /* Normal height to prevent excessive scrolling */
+  height: 100vh;
   position: relative;
   background-color: #000;
   font-family: Inter, Roboto, sans-serif;

@@ -9,6 +9,10 @@ export type TExperience = {
   iconBg: string;
   date: string;
   points: string[];
+  subtitle?: string;
+  tags?: string[];
+  highlight?: string;
+  sideImage?: any;
 } & Required<Omit<TCommonProps, "name">>;
 
 export type TTestimonial = {

@@ -52,11 +52,30 @@ const Works = () => {
         </div>
         <div id="right-screen">
           <div className="content-wrapper">
-            <h1 className="title">The Future of 3D</h1>
-            <p className="description">
-              Scroll down to watch the animation unfold. Experience a seamless and immersive cinematic journey.
-            </p>
-            <div className="scroll-indicator">↓ Scroll to explore ↓</div>
+            <div className="description flex flex-col gap-5 text-[1.1rem]">
+              <p className="text-white font-medium text-[1.4rem] leading-snug">
+                I’m Babu Natarajan — an Embedded Systems & IOT Engineer focused on building reliable, real-time systems that work beyond controlled environments.
+              </p>
+              <p>
+                My work lies at the intersection of hardware and intelligence — from low-level microcontroller development to deploying AI models on edge devices like Raspberry Pi and dedicated accelerators.
+              </p>
+              <p>
+                I don’t just build systems that run — I build systems that keep running.
+                Systems that can handle real-world conditions, unexpected failures, and long-term operation without constant intervention.
+              </p>
+              <p>
+                Over time, I’ve worked across Arduino, ESP32, Raspberry Pi, and edge AI platforms — building IoT automation systems, communication pipelines, and computer vision applications.
+              </p>
+              <p>
+                My approach is simple: understand the system deeply, design for failure, and keep things as simple and robust as possible.
+              </p>
+              <p className="italic text-gray-300">
+                Because real systems don’t fail in theory — they fail in production.
+              </p>
+              <p>
+                I enjoy solving problems where hardware, software, and AI must work together — because that’s where real engineering begins.
+              </p>
+            </div>
           </div>
         </div>
       </div>

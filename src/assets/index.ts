@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import profile from "./profile.png";
+import school from "./school.jpeg";
+import college from "./college.jpeg";
+import work from "./work.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,6 +44,9 @@ export {
   menu,
   close,
   profile,
+  school,
+  college,
+  work,
   css,
   docker,
   figma,

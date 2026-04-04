@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../../constants/styles";
 import { navLinks } from "../../constants";
-import { logo, menu, close } from "../../assets";
+import { menu, close } from "../../assets";
 import { config } from "../../constants/config";
 
 const Navbar = () => {
@@ -64,7 +64,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             {config.html.title}
           </p>
@@ -81,6 +80,16 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="https://www.linkedin.com/in/-babu-natarajan-43-/"
+              target="_blank"
+              rel="noreferrer"
+              className="bg-[#915EFF] px-5 py-2 rounded-xl text-white font-bold text-[16px] hover:bg-[#7e4eed] transition-colors"
+            >
+              LinkedIn
+            </a>
+          </li>
         </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
@@ -110,6 +119,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/-babu-natarajan-43-/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-[#915EFF] px-4 py-2 rounded-xl text-white font-bold text-[16px] w-full text-center block mt-2"
+                >
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
         </div>
